@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>02_radial_gradient</title>
+
+  <style>
+    /* 半徑、形狀、圓心、色彩標點 */
+    /* ackground-image: radial-gradient(
+        半徑、形狀 at 圓心 X 軸位置 圓心 Y 軸位置,
+        色彩標點 1, 色彩標點 2
+      ); 
+    */
+    /* div {
+      width: 400px;
+      height: 200px;
+      background-image: radial-gradient(100px 100px at 50% 50%,
+      #90DCEF,
+      #106DEE
+      );
+    } */
+    div {
+      width: 400px;
+      height: 200px;
+      background-image: radial-gradient(100px 100px at 50% 50%,
+      #90DCEF 0% 10%,
+      #106DEE 10% 20%,
+      #00EE00 20% 30%,
+      #88AA00 30% 50%
+      );
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>01_linear_gradient</title>
+
+  <style>
+    /* div {
+      width: 200px;
+      height: 200px;
+      background-image: linear-gradient(to right bottom, #F00, #FF0);
+    } */
+    /* div {
+      width: 200px;
+      height: 200px;
+      background-image: linear-gradient(115deg, #F00 50%, #FF0 50%);
+    } */
+    div {
+      width: 200px;
+      height: 200px;
+      background: linear-gradient(115deg, #F00 50%, transparent 50%) center center / 100% 100%,
+      url("https://picsum.photos/1200/600?random=10") right center / auto 100%;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>

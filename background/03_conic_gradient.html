@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>03_conic_gradient</title>
+
+  <style>
+    /* 初始角度、圓心位置、色彩標點 */
+    /* ackground-image: conic-gradient(
+        初始角度 at 圓心 X 軸位置 圓心 Y 軸位置,
+        色彩標點 1, 色彩標點 2, 色彩標點 3
+      ); 
+    */
+    /* div {
+      width: 400px;
+      height: 200px;
+      background-image: conic-gradient( from 0deg at center center,
+                                        red 0deg, 
+                                        #00D3FF 180deg,
+                                        #FB8A0D 360deg);
+    } */
+    .pie {
+      display: flex;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 5px solid #333;
+      background-image: conic-gradient(#9E8AF8 0% 68%, #AFFFFD 68%);
+    }
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 5px solid #333;
+      margin: auto;
+      width: 150px;
+      height: 150px;
+      background: #FFF;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="pie">
+    <div class="text">68%</div>
+  </div>
+</body>
+</html>
